@@ -277,7 +277,7 @@ with st.container():
                      "city": "Cidade",
                      "restaurant_id": "N° de Restaurantes"                    
                  },
-            title=' Cidades Com Maior Número de Restaurantes Mal Avaliados')
+            title=' Cidades Com Menor Número de Restaurantes Mal Avaliados')
         st.plotly_chart(fig, use_container_width=True)
         
 with st.container():
