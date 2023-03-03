@@ -252,7 +252,7 @@ with st.container():
         mais_pedidos = mais_pedidos.head(6)
 
 
-
+        st.markdown('#### N° Pedidos por Tipo de Culinária')
 
         fig = go.Figure(data=[go.Pie(labels=mais_pedidos['cuisines'],
                              values=mais_pedidos['votes'])])
